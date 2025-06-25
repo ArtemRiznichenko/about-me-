@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+        }
+                .nav-list{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            font-size: 30px;
+             color: #000000;
+        }
+        form{
+            width: 250px;
+            background-color: #00000033;
+            padding: 20px;
+            border-radius: 7px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+        input{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        textarea{
+            width: 100%;
+            resize: none;
+            margin-bottom: 10px;
+        }
+        button{
+            width: 65%;
+            background-color: aqua;
+            color: #000000;
+            transition: 2s;
+            display: block;
+            margin: 0 auto;
+           border-radius: 7px;
+        }
+        button:hover{
+            transform: scale(1.2);
+        }
+        header{
+            font-size: 30px;
+           font-weight: 800;
+           background: #00fff2;
+background: radial-gradient(circle, rgba(0, 255, 242, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 212, 255, 1) 100%);
+        }
+      a:hover{
+         color: #ffffff;
+text-shadow: 0 0 10px #000000;
+transform: scale(1.2);
+      }
+      a{
+        transition: 2s;
+        color: #000000;
+      }
+      footer{
+        background: #00fff2;
+background: radial-gradient(circle, rgba(0, 255, 242, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 212, 255, 1) 100%);
+font-size: 30px;
+font-weight: 800;
+
+      }
+      body{
+     background: #00fff2;
+background: radial-gradient(circle, rgba(0, 255, 242, 1) 0%, rgba(0, 0, 0, 0.932) 100%, rgba(0, 212, 255, 1) 100%);;
+      }
+      h1{
+        color: #000000;
+        text-align: center;
+        display: block;
+        margin-bottom: 50px;
+        font-size: 25px;
+      }
+      ul{
+    list-style: none;
+}
+li{
+    max-width: 400px;
+}
+.skills-list{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    
+}
+section{
+    padding: 50px;
+}
+img{
+    
+    transition: 2s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+
+ 
+    
+
+    </style>
+</head>
+<body>
+      <header>
+        <ul class="nav-list">
+                        <li><a target="_blank" href="./index.html">На головну </a></li>
+            <li><a target="_blank" href="./hobby.html">Хоббі</a></li>
+            <li><a target="_blank" href="">Про мене</a></li>
+            <li><a target="_blank" href="./dreams.html">Мої мріЇ</a></li>
+            <li><a target="_blank" href="./contacs.html">Контакти</a></li>
+            
+        </ul>
+    </header>
+    <section>
+        <h1>Це сторінка на якій можна написати мені</h1>
+        <ul class="skills-list">
+            <li>
+                <img width="400"  src="https://pro.sony/s3/2017/05/21123345/image-20221121-103319.png" alt="">
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error alias distinctio quia, eaque facere magnam placeat natus maiores consequatur in esse, fugit incidunt praesentium eius. Nemo facilis mollitia iusto totam.</h2>
+            </li>
+            <li>
+                <img width="400" src="https://damassets.autodesk.net/content/dam/autodesk/images/industry/media-entertainment/game-design-and-development/game-design-development-benefits-blazing-fast-performance-1280x720-nc.jpg" alt="">
+                <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum totam dolore soluta dolores quam officia, repellat temporibus repudiandae qui in ipsa debitis veritatis modi! At adipisci quaerat eum id doloribus.</h2>
+            </li>
+            <li>
+                <img width="400" src="https://th.bing.com/th/id/OIP.cn4ziipe6ZSYG5SzlGr2gQHaFH?rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore suscipit ipsam obcaecati officia exercitationem non iste ut. Odio illo, repellat quisquam quos quae a rerum asperiores debitis voluptatibus numquam odit?</h2>
+            </li>
+            <li>
+                <img width="400" src="https://th.bing.com/th/id/OIP.cn4ziipe6ZSYG5SzlGr2gQHaFH?rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="">
+                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde distinctio accusantium soluta provident aspernatur tempore earum ad maiores enim architecto, officia doloremque porro consequatur quis modi voluptas corporis obcaecati.</h2>
+            </li>
+        </ul>
+        <form action="">
+           <input placeholder="name" type="text"> 
+           <input placeholder="email" type="email">
+           <textarea placeholder="your message" name="" id="" cols="30"></textarea>
+           <button>send massage</button>
+
+        </form>
+    </section>
+            <footer>
+        <ul class="nav-list">
+              <li><a target="_blank" href="./index.html">На головну </a></li>
+            <li><a target="_blank" href="./hobby.html">Хоббі</a></li>
+            <li><a target="_blank" href="">Про мене</a></li>
+            <li><a target="_blank" href="./dreams.html">Мої МріЇ</a></li>
+            <li><a target="_blank" href="./contacs.html">Контакти</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
